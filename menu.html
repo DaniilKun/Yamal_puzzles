@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="menu.css"> -->
+  <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/swiper/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="title_main">
+    <img src="images/title_main.png" alt="">
+  </div>
+  <div class="block_slider">
+    <!--слайдер -->
+    <!-- <div class="block_btn_slider">
+      <img src="images/back_slid.png" class="slider_back" alt="">
+      <img src="images/next_slid.png" class="slider_next" alt="">
+    </div>
+    <div class="slider">
+      <div class="slider_container">
+        <div class="slide_container_img">
+          <div style="display: flex; flex-direction: column;">
+            <div>
+              <button class="puzzle-button active" data-puzzle="1">
+                <img src="images/img_slid1.png" alt="">
+              </button>
+              <button class="puzzle-button active" data-puzzle="2">
+                <img src="images/img_slid2.png" alt="">
+              </button>
+            </div>
+            <div>
+              <button class="puzzle-button" data-puzzle="3">
+                <img src="images/img_slid3.png" alt="">
+              </button>
+              <button class="puzzle-button" data-puzzle="4">
+                <img src="images/img_slid4.png" alt="">
+              </button>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <div>
+              <button class="puzzle-button" data-puzzle="5">
+                <img src="images/img_slid5.png" alt="">
+              </button>
+              <button class="puzzle-button" data-puzzle="6">
+                <img src="images/img_slid4.png" alt="">
+              </button>
+            </div>
+            <div>
+              <button class="puzzle-button" data-puzzle="7">
+                <img src="images/img_slid4.png" alt="">
+              </button>
+              <button class="puzzle-button" data-puzzle="8">
+                <img src="images/img_slid2.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>  -->
+  </div>
+
+  <div class="inner">
+    <div class="gallary">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom" data-puzzle="1"><img src="/images/img_slid1.png" ></div>
+          <div class="foto-slide swiper-slide" data-puzzle="3"><img src="/images/img_slid3.png"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom" data-puzzle="4"><img src="/images/img_slid4.png"></div>
+          <div class="foto-slide swiper-slide" data-puzzle="2"><img src="/images/img_slid2.png"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom" data-puzzle="3"><img src="/images/img_slid5.png"></div>
+          <div class="foto-slide swiper-slide"><img src="/images/img_slid3.png"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom"><img src="/images/img_slid1.png"></div>
+          <div class="foto-slide swiper-slide"><img src="/images/img_slid1.png"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom"><img src="/images/img_slid3.png"></div>
+          <div class="foto-slide swiper-slide"><img src="/images/img_slid4.png"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="foto-slide swiper-slide img_bottom"><img src="/images/img_slid2.png"></div>
+          <div class="foto-slide swiper-slide"><img src="/images/img_slid1.png"></div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-prev"></div>
+    <div class="btn-next"></div>
+  </div>
+
+
+
+  <!-- <div class="puzzles">
+      <button class="puzzle-button active" data-puzzle="1">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Hippo_-_photo_by_Kim_Parry%2C_Ontario_CA._%2810596378395%29.jpg/350px-Hippo_-_photo_by_Kim_Parry%2C_Ontario_CA._%2810596378395%29.jpg"
+          alt="">
+      </button>
+      <button class="puzzle-button" data-puzzle="2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Kuda_Nil_dewasa.jpg" alt="">
+      </button>
+      <button class="puzzle-button" data-puzzle="3">
+        <img src="https://natworld.info/wp-content/uploads/2017/06/begemot-na-sushe.jpg" alt="">
+      </button>
+      <button class="puzzle-button" data-puzzle="4">
+        <img src="https://kipmu.ru/wp-content/uploads/bgmt2.jpg" alt="">
+      </button>
+      <button class="puzzle-button" data-puzzle="5">
+        <img src="https://o-prirode.ru/wp-content/uploads/2018/05/begemot-e1526395505736.jpg" alt="">
+      </button>
+    </div> -->
+  <div class="puzzles">
+    <h1>Уровень сложности:</h1>
+    <div class="levels">
+      <button class="level-button active" data-level="easy">Легкий</button>
+      <button class="level-button " data-level="middle">Средний</button>
+      <button class="level-button" data-level="hard">Тяжелый</button>
+    </div>
+    <button id="start" class="start-button">СОБРАТЬ ПАЗЛ</button>
+  </div>
+  <script src="/swiper-bundle.min.js"></script>
+  <script src="/index.js"></script>
+  <script src="menu.js"></script>
+  <script src="/js/return_index.js"></script>
+  <script src="js/slider_puzzle.js"></script>
+</body>
+
+</html>
+<style>
+
+
+</style>

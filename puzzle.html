@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang=ru>
+
+<head>
+    <meta charset=utf-8>
+    <!--[if IE]>    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <link rel="shortcut icon" href=favicon.ico>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+
+    <link rel=stylesheet href=css/swiper-bundle.min.css>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/Ceremonious-One.woff">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/Ceremonious-One.woff2">
+    <link rel=stylesheet href=css/style.css>
+    <script src='js/js.adapt.js'></script>
+    <!--[if lt IE 9]>    <script src="js/html5shiv-printshiv.min.js"></script><![endif]-->
+    <title>Пазлы</title>
+</head>
+
+<body>
+    <div class="_puzzle wrapper">
+        <section class=sidebar>
+            <div class=sidebar__container>
+                <div class=sidebar__content>
+                    <div class=sidebar__header>
+                        <div class=sidebar__line>
+                            <picture>
+                                <source srcset=images/sidebar-line-top.webp type=image/webp><img
+                                    class="sidebar__img sidebar__img_top" src=images/sidebar-line-top.png alt=""
+                                    loading=lazy>
+                            </picture>
+                        </div>
+                        <h1 class=sidebar__title>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                        <div class=sidebar__line>
+                            <picture>
+                                <source srcset=images/sidebar-line.webp type=image/webp><img class=sidebar__img
+                                    src=images/sidebar-line.png alt="" loading=lazy>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class=sidebar__body> <button class="sidebar__btn _icon-arrow-up sidebar__btn_up" id=next
+                            type=button></button>
+                        <div class="_slide-inner-one _slide-one sidebar__inner">
+                            <div class="_slider-one sidebar__slider swiper-wrapper">
+                                <div class="sidebar__slide swiper-slide">
+                                    <picture>
+                                        <source srcset=images/puzzle/picture-1.webp type=image/webp><a href="pic-1.html"
+                                            target="search_iframe"><img class=sidebar__slide-img
+                                                src=images/puzzle/mpic-1.jpg alt="" loading=lazy></a>
+                                    </picture>
+                                </div>
+                                <div class="sidebar__slide swiper-slide">
+                                    <picture>
+                                        <source srcset=images/puzzle/picture-2.webp type=image/webp><a href="pic-2.html"
+                                            target="search_iframe"><img class=sidebar__slide-img
+                                                src=images/puzzle/mpic-2.jpg alt="" loading=lazy></a>
+                                    </picture>
+                                </div>
+                                <div class="sidebar__slide swiper-slide">
+                                    <picture>
+                                        <source srcset=images/puzzle/picture-1.webp type=image/webp><a href="pic-3.html"
+                                            target="search_iframe"><img class=sidebar__slide-img
+                                                src=images/puzzle/mpic-3.jpg alt="" loading=lazy></a>
+                                    </picture>
+                                </div>
+                                <div class="sidebar__slide swiper-slide">
+                                    <picture>
+                                        <source srcset=images/puzzle/picture-1.webp type=image/webp><a href="pic-4.html"
+                                            target="search_iframe"><img class=sidebar__slide-img
+                                                src=images/puzzle/mpic-4.jpg alt="" loading=lazy></a>
+                                    </picture>
+                                </div>
+                            </div>
+                        </div> <button class="sidebar__btn _icon-arrow-down sidebar__btn_down" id=prev
+                            type=button></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class=page>
+            <section class=puzzle>
+                <div class=puzzle__container>
+                    <div class="_content puzzle__content">
+                        <div class="_header puzzle__header">
+                            <div class="_header-line puzzle__line"></div>
+                            <div class="_header-block puzzle__header-block">
+                                <div class="_header-title-line puzzle__title-line">
+                                    <picture>
+                                        <source srcset=images/line-left.webp type=image/webp><img
+                                            class="_header-img puzzle__title-img" src=images/line-left.png alt=""
+                                            loading=lazy>
+                                    </picture>
+                                </div>
+                                <h2 class="_title puzzle__title">Собери пазл</h2>
+                                <div class="_header-title-line puzzle__title-line">
+                                    <picture>
+                                        <source srcset=images/line-right.webp type=image/webp><img
+                                            class="_header-img puzzle__title-img" src=images/line-right.png alt=""
+                                            loading=lazy>
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="_header-line puzzle__line"></div>
+                        </div>
+                        <div class=puzzle__body>
+                            <div class=puzzle__convas>
+                                <!-- zim script -->
+
+                                <iframe src="pic-1.html" width="20%" height="100%" frameborder="0"
+                                    name="search_iframe"></iframe>
+
+                                <!-- zim script -->
+                            </div>
+                        </div>
+                        <div class="_footer puzzle__footer">
+
+                               <!-- <div class=puzzle__info><span class="_text puzzle__text">Собрано <i class=_num>5</i> из 24 фрагментов</span></div>   -->
+
+                            <div style="padding: 60px 30% 10px;"><a class="_btn puzzle__btn"
+                                    href=games.html>назад</a><span class=_plug></span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main><span></span>
+    </div>
+    <script src=js/index.js></script>
+    <script src="/js/return_index.js"></script>
+</body>
+
+</html>

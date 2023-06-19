@@ -1,0 +1,41 @@
+.fon{
+  position: absolute;
+  top: 0;left: 0;
+}
+.text{
+  position: absolute;
+width: 1086px;
+height: 180px;
+left: 537px;
+top: 2723px;
+
+font-family: 'CeraPro';
+font-style: normal;
+font-weight: 700;
+font-size: 143px;
+line-height: 180px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.btnFinaly{
+  position: absolute;
+width: 900px;
+height: 191px;
+left: 630px;
+top: 3180px;
+
+background: rgba(255, 255, 255, 0.8);
+border: 6px solid #3A79B2;
+border-radius: 77px;
+display: flex;align-items: center;
+justify-content: center;
+}
+.btnFinaly h2{
+  font-family: 'CeraPro';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 113px;
+
+color: #3A79B2;
+}
