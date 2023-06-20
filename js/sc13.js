@@ -17,7 +17,7 @@ switch (level) {
     break;          
 }
         // Стили
-         const frame = new Frame("fit", 1500, 1500,"", lighten, "pic-5.jpg", "images/puzzle/");
+         const frame = new Frame("fit", 1500, 1500,"", lighten, "pic-13.jpg", "images/puzzle/");
          frame.on("ready", ()=>{ // ES6 Arrow Function - similar to function(){}
              zog("ready from ZIM Frame"); // logs in console (F12 - choose console)
          
@@ -90,7 +90,7 @@ switch (level) {
              // ~~~~~~~~~~~~~~~~~~~~~
              // PICTURE
              
-             const pic = asset("pic-5.jpg").clone().center().alp(.3).vis(true); // checkbox later to turn on
+             const pic = asset("pic-13.jpg").clone().center().alp(.3).vis(true); // checkbox later to turn on
              const w = pic.width/numX;
              const h = pic.height/numY;   
              
@@ -98,7 +98,7 @@ switch (level) {
              // false is for an array rather than the default Tile output 
              // extra is because bumps go outside the width and height
              const extra = Math.max(w,h)*Piece.gap; 
-             const pics = chop(asset("pic-5.jpg"), numX, numY, false, extra); 
+             const pics = chop(asset("pic-13.jpg"), numX, numY, false, extra); 
                  
                  
              // ~~~~~~~~~~~~~~~~~~~~~

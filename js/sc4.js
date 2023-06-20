@@ -17,7 +17,7 @@ switch (level) {
     break;          
 }
         // Стили
-         const frame = new Frame("fit", 1000, 1300,"", lighten, "pic-4.jpg", "images/puzzle/");
+         const frame = new Frame("fit",1100, 1300,"", lighten, "pic-4.jpg", "images/puzzle/");
          frame.on("ready", ()=>{ // ES6 Arrow Function - similar to function(){}
              zog("ready from ZIM Frame"); // logs in console (F12 - choose console)
          
@@ -242,7 +242,7 @@ switch (level) {
                  text:`Собрано ${placed} из ${num} фрагментов`,
                  italic:false,
                  align:LEFT
-             }).centerReg().pos(100,1150,LEFT,TOP);
+             }).centerReg().pos(100,1200,LEFT,TOP);
              
              
              // ~~~~~~~~~~~~~~~~~~~~~

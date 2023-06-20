@@ -40,39 +40,6 @@ body {
     padding-bottom: 37px;
 }
 
-/* Слайдер
-.block_btn_slider {
-    position: relative;
-    top: 770px;
-    width: 2000px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.slider {
-    white-space: nowrap;
-    position: relative;
-    top: 150px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 1710px;
-    height: auto;
-    overflow: hidden;
-}
-
-.slide_container {
-    position: relative;
-    overflow: hidden;
-
-}
-
-.slide_container_img {
-    display: flex;
-    position: relative;
-    transition: all ease 2s;
-    left: 0;
-} */
-
 .puzzles {
     position: relative;
     top: 250px;
@@ -117,13 +84,15 @@ body {
 .start-button:hover,
 .swiper-slide.active,
 .level-button.active {
-    color: black;
+    font-size: 87px;
+    font-weight: 500;
     
 }
 .swiper-slide.active {
-    border: 9px solid black;
+    border: 9px solid #FFFFFF;
+    box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.6);
     width: 820px;
-    height: 560px;
+    height: 575px;
     position: relative;
 }
 
