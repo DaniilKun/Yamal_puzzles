@@ -29,7 +29,7 @@ Ready-made pages and functions:
     -sliders on pages;
     -all style;
     -all pages are ready;
-    -added a timer for no user action 600 sec;
+    -added a timer for no user action 300 sec;
     -add puzzle;
     -add image puzzle;
     -locking the mouse;

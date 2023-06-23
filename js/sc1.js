@@ -261,10 +261,10 @@ switch (level) {
                         //  stats.text = `Поздравляем, все ${num} фрагмента собраны!`;
                         stats.text = `Поздравляем, Вы собрали Пазл !`;
                          timeout(1, function () {
-                             emitter.emitterForce = 8;
+                             emitter.emitterForce = 18;
                              emitter.center().mov(0,-170).spurt(100)
                             })
-                            timeout(2, function () {
+                            timeout(5, function () {
                                 hintCheck.removeFrom();
                                 picCheck.removeFrom();
                                 picCheck.checked = true;                    

@@ -264,7 +264,7 @@ switch (level) {
                              emitter.emitterForce = 8;
                              emitter.center().mov(0,-170).spurt(100)
                             })
-                            timeout(2, function () {
+                            timeout(5, function () {
                                 hintCheck.removeFrom();
                                 picCheck.removeFrom();
                                 picCheck.checked = true;                    

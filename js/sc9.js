@@ -260,7 +260,7 @@ switch (level) {
                          
                         //  stats.text = `Поздравляем, все ${num} фрагмента собраны!`;
                         stats.text = `Поздравляем, Вы собрали Пазл !`;
-                         timeout(1, function () {
+                         timeout(5, function () {
                              emitter.emitterForce = 8;
                              emitter.center().mov(0,-170).spurt(100)
                             })
